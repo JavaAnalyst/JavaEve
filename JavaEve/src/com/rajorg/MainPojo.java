@@ -1,5 +1,7 @@
 package com.rajorg;
 
+import java.util.Scanner;
+
 public class MainPojo {
 
 	public static void main(String[] args) {
@@ -22,6 +24,19 @@ public class MainPojo {
 
 		// System.out.println(rcal.Mulitply(3, 4, 2));
 
+		InputScan iscan = new InputScan();
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter your FName");
+		String fname= scan.nextLine();
+		System.out.println("Please enter your LName");
+		String lname= scan.nextLine();
+		System.out.println("Please enter your phoneNo");
+		String pno= scan.nextLine();
+		System.out.println("Please enter your address");
+		String add= scan.nextLine();
+		System.out.println("Program Ends");
+		
+		
 	}
 
 }
